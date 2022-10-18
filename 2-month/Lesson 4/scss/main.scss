@@ -1,0 +1,19 @@
+//! Main.scss file
+.card {
+  border: 1px solid red;
+  background-color: black;
+
+  &__title {
+    color: red;
+
+    &:hover{
+      color: blue;
+    }
+  }
+
+  &__btn {
+    color: white;
+    border: none;
+    overflow: hidden;
+  }
+}

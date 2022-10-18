@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Rubik:wght@400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1470px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.first {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.second {
+  font-family: "Rubik";
+  font-size: 30px;
+  font-weight: 500;
+}
+
+/* .btn {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 15px;
+  border: 1px solid black;
+  transition: all 0.3s ease-in;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+} */
+
+/* Advantages section */
+/* .advantages {
+  margin: 180px 0;
+}
+
+.advantages-title {
+  font-size: 48px;
+  color: #01374b;
+  text-align: center;
+}
+
+.advantages-list {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  margin-top: 80px;
+}
+
+.advantages-list-item {
+  border: 1px solid #ee0356;
+  background-color: #ee0356;
+  width: 460px;
+  border-radius: 40px;
+  padding: 40px;
+  transition: all 0.3s ease-in;
+}
+
+.advantages-list-item:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+.advantages-list-item:hover p {
+  color: #ee0356;
+}
+.advantages-list-item:hover .advantage-img svg path {
+  fill: #ee0356;
+}
+
+.item-darkBlue {
+  background-color: #1a00ff;
+}
+
+.item-lightBlue {
+  background-color: #049fd9;
+}
+
+.advantage-description {
+  font-size: 24px;
+  color: #eefaff;
+  margin-top: 40px;
+} */
+/* End of Advantages section */

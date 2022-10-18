@@ -1,0 +1,52 @@
+/* *,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.check {
+  position: relative;
+  padding-left: 20px;
+}
+
+.check__input {
+  appearance: none;
+}
+
+.check__box {
+  margin-top: 2px;
+  margin-left: -20px;
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  border: 1px solid red;
+  border-radius: 3px;
+}
+
+.check__input:focus + .check__box {
+  box-shadow: 0 0 5px green;
+}
+
+.check__input:checked + .check__box {
+  background-image: url(../img/tick_icon.png);
+  background-size: contain;
+  background-color: red;
+}
+
+.check__input:disabled + .check__box {
+  border: 1px solid grey;
+  background-color: grey;
+}
+
+.check__input:disabled:checked + .check__box {
+  border: 2px solid grey;
+  background-color: red;
+} */

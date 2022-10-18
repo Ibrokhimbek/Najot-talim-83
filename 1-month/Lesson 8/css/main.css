@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Medium.woff2") format("woff2"),
+    url("../fonts/Roboto-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2"),
+    url("../fonts/Roboto-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Black.woff2") format("woff2"),
+    url("../fonts/Roboto-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+/* Services section */
+.services-header h2 {
+  font-size: 37px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.services-header p {
+  color: #7d7d7d;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 115px;
+}
+
+.services-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.services-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  width: 344px;
+  padding: 30px 22px;
+  border-radius: 15px;
+}
+
+.service-img {
+  background-color: #717cff;
+  padding: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-img img {
+  width: 31px;
+  height: 31px;
+}
+
+.services-list-item h3 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #37474f;
+  margin-top: 30px;
+}
+
+.services-list-item p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.444444px;
+  color: rgba(55, 71, 79, 0.7);
+  margin-top: 15px;
+  margin-bottom: 24px;
+}
+
+.services-list-item a {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 0.439286px;
+  color: #717cff;
+  text-decoration: none;
+}
+/* End of Services section */
+
+.btns {
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 21px;
+}
+
+.btn {
+  width: 10px;
+  height: 10px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(124, 124, 124, 0.318837);
+}
+
+.active {
+  width: 14px;
+  height: 14px;
+  background-color: #717cff;
+}

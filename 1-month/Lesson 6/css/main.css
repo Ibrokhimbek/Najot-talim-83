@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+/* Articles section */
+.articles-title {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.line {
+  width: 86px;
+  height: 4px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.articles-list {
+  list-style: none;
+  margin: 72px 0;
+}
+
+.article-list-item {
+  width: 33%;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 20px;
+  /* margin-right: 20px; */
+}
+
+.article-img {
+  max-width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.article-info {
+  padding: 30px;
+}
+
+.article-info h3 {
+  font-size: 21px;
+}
+
+.article-info p {
+  font-size: 16px;
+  color: #7D7987;
+  padding: 12px 0 25px 0;
+}
+
+.article-info a {
+  color: #4089ed;
+  font-size: 17px;
+  text-decoration: none;
+}
+/* End of Articles section */
+
+/* Services section */
+
+/* .services-heading {
+  font-size: 36px;
+  text-align: center;
+}
+
+.line {
+  height: 2px;
+  width: 56px;
+  background-color: black;
+  margin: 33px auto;
+}
+
+.services-info {
+  color: #7d7987;
+  width: 952px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.services-list {
+  list-style: none;
+  padding: 80px 0;
+  background-color: black;
+}
+
+.services-list-item {
+  background-color: #ffffff;
+  display: inline-block;
+  vertical-align: top;
+  width: 350px;
+  padding: 37px;
+  border-radius: 20px;
+  margin-right: 37px;
+}
+
+.service-title {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.service-description {
+  color: #7D7987;
+  font-size: 16px;
+} */
+
+/* End of Services section */

@@ -1,0 +1,14 @@
+.card {
+  border: 1px solid red;
+  background-color: black;
+}
+.card__title {
+  color: red;
+}
+.card__title:hover {
+  color: blue;
+}
+.card__btn {
+  color: white;
+  border: none;
+}/*# sourceMappingURL=main.css.map */

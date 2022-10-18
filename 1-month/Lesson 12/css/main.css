@@ -1,0 +1,140 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-family: sans-serif;
+  height: 3000px;
+}
+
+/* Header */
+
+header {
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  background-color: white;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list-item {
+  padding: 0 30px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* .dropdown:hover .dropdown-menu {
+  display: block;
+} */
+
+.dropdown-menu {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: calc(100% + 30px);
+  display: none;
+  list-style: none;
+  border: 1px solid red;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+}
+
+.dropdown-menu li:hover {
+  background-color: rgba(0, 0, 0, 0.495);
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover a {
+  color: white;
+}
+/* End of Header */
+
+/* Hero */
+.hero {
+  margin-top: 60px;
+  position: relative;
+  height: 100vh;
+  /* width: 90vw; */
+  background-image: url(../img/hero.jpeg);
+  background-size: cover;
+}
+
+.hero::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.591);
+}
+
+.hero-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  text-align: center;
+  color: white;
+  z-index: 9999;
+}
+/* End of Hero */
+
+/* .caption {
+  display: inline-block;
+  text-align: center;
+  margin: 50px 0;
+  position: relative;
+} */
+
+/* .caption::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(235, 18, 18, 0.616);
+} */
+
+/* .caption::after {
+  content: "Assalomu alaikum! Men tug'ildim!";
+} */
