@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+// body {
+//   background-color: black;
+//   height: 100vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+// .round {
+//   width: 100vh;
+//   height: 100vh;
+//   background-color: red;
+//   animation: oval2 0.3s ease-in infinite;
+//   border-radius: 100%;
+// }
+
+// @keyframes oval {
+//   from {
+//     border-radius: 0;
+//   }
+
+//   to {
+//     border-radius: 100%;
+//   }
+// }
+
+// @keyframes oval2 {
+//   0% {
+//     background-color: pink;
+//   }
+
+//   25% {
+//     background-color: green;
+//   }
+
+//   50% {
+//     background-color: violet;
+//   }
+
+//   75% {
+//     background-color: blue;
+//   }
+
+//   100% {
+//     background-color: coral;
+//   }
+// }
+
+// .container {
+//   max-width: 1145px;
+//   margin: 0 auto;
+// }
+
+// .hero__container {
+//   display: flex;
+//   align-items: center;
+//   gap: 40px;
+// }
+
+// Hero section
+
+// End of Hero section
+
+//* Media queries
+// @media only screen and (max-width: 767px) {
+//   .container {
+//     padding: 0 20px;
+//   }
+
+//   .hero__container {
+//     flex-direction: column;
+//     gap: 20px;
+//   }
+// }
+
+// @media (min-width: 768px) and (max-width: 1024px) {
+//   .hero__container {
+//     flex-direction: column-reverse;
+//   }
+// }
