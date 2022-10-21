@@ -1,0 +1,45 @@
+.btn-primary {
+  text-decoration: none;
+  color: #fff;
+  background-color: #458FF6;
+  border-radius: 55px;
+  border: 1px solid #458FF6;
+  padding: 20px 40px;
+  transition: all 0.3s ease;
+}
+.btn-primary:hover {
+  color: #458FF6;
+  background-color: #fff;
+}
+
+.btn-secondary {
+  text-decoration: none;
+  color: #458FF6;
+  background-color: #fff;
+  border-radius: 55px;
+  border: 1px solid #458FF6;
+  padding: 20px 40px;
+  transition: all 0.3s ease;
+}
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #458FF6;
+}
+
+.btn-red {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff0000;
+  border-radius: 55px;
+  border: 1px solid #000;
+  padding: 20px 40px;
+  transition: all 0.3s ease;
+}
+.btn-red:hover {
+  color: #ff0000;
+  background-color: #fff;
+}
+
+body {
+  margin: 40px;
+}/*# sourceMappingURL=main.css.map */

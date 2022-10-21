@@ -1,0 +1,34 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* .card__container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.card {
+  min-height: 200px;
+  max-height: 300px;
+  padding: 10px;
+  width: 30%;
+  background-color: grey;
+  color: white;
+  overflow: scroll;
+} */
+
+/* .box {
+  max-width: 600px;
+  min-width: 400px;
+  background-color: red;
+} */

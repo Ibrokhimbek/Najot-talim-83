@@ -1,0 +1,75 @@
+@mixin reset-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+@mixin reset-link {
+  text-decoration: none;
+  color: black;
+}
+
+@mixin button($color, $bg-color, $border-color) {
+  text-decoration: none;
+  color: $color;
+  background-color: $bg-color;
+  border-radius: 55px;
+  border: 1px solid $border-color;
+  padding: 20px 40px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: $bg-color;
+    background-color: $color;
+  }
+}
+
+// @mixin btn-primary {
+//   text-decoration: none;
+//   color: $secondary-color;
+//   background-color: $main-color;
+//   border-radius: 55px;
+//   border: 1px solid $main-color;
+//   padding: 20px 40px;
+//   transition: all 0.3s ease;
+//   // Hello world
+//   &:hover {
+//     color: $main-color;
+//     background-color: transparent;
+//   }
+// }
+
+// @mixin btn-secondary {
+//   text-decoration: none;
+//   color: $main-color;
+//   border: 1px solid $main-color;
+//   border-radius: 55px;
+//   padding: 20px 40px;
+//   transition: all 0.3s ease;
+
+//   &:hover {
+//     color: $secondary-color;
+//     background-color: $main-color;
+//   }
+// }
+
+// @mixin cube($width: 40px, $height: 40px, $color: black) {
+//   width: $width;
+//   height: $height;
+//   background-color: $color;
+// }
+
+// @mixin square(
+//   $width: 40px,
+//   $height: 40px,
+//   $border-radius: 0,
+//   $property,
+//   $property-value
+// ) {
+//   width: $width;
+//   height: $height;
+//   background-color: red;
+//   border-radius: $border-radius;
+//   #{$property}: $property-value;
+//   @content;
+// }

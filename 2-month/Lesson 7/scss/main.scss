@@ -1,0 +1,46 @@
+@import "mixins";
+@import "variables";
+@import "./blocks/buttons";
+
+body {
+  margin: 40px;
+}
+
+// .cube {
+//   @include cube(20px, 20px, red);
+// }
+
+// .cube-20 {
+//   @include cube(50px, 60px, blue)
+// }
+
+// .cube-50 {
+//   @include cube(80px, 90px)
+// }
+
+// .cube-20 {
+//   width: 20px;
+//   height: 20px;
+//   background-color: blue;
+// }
+
+// .square {
+//   @include square(80px, 80px, 50%) {
+//     position: relative;
+
+//     &::before {
+//       content: "";
+//       width: 20px;
+//       height: 20px;
+//       background-color: green;
+//       position: absolute;
+//       bottom: 0px;
+//       right: 5px;
+//       border-radius: 50%;
+//     }
+//   }
+// }
+
+// .square-second {
+//   @include square(90px, 90px, 50%, border, 4px solid black);
+// }

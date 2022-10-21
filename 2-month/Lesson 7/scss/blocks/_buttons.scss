@@ -1,0 +1,11 @@
+.btn-primary {
+  @include button(#fff, #458FF6, #458FF6);
+}
+
+.btn-secondary {
+  @include button(#458FF6, #fff, #458FF6);
+}
+
+.btn-red {
+  @include button(#fff, #ff0000, #000)
+}
