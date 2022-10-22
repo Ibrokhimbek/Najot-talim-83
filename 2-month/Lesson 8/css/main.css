@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1270px;
+  margin: 0 auto;
+}
+
+.socials__container {
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px 90px;
+}
+
+.social__box {
+  width: 300px;
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.social__box-icon {
+  display: block;
+  flex-shrink: 0;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-1 {
+  background-color: coral;
+  background-image: url("../img/portfel.svg");
+}
+
+.icon-2 {
+  background-color: blue;
+  background-image: url("../img/portfel.svg");
+}
+
+.icon-3 {
+  background-color: red;
+  background-image: url("../img/portfel.svg");
+}
+
+.icon-4 {
+  background-color: red;
+  background-image: url("../img/portfel.svg");
+}
+
+.icon-5 {
+  background-color: red;
+  background-image: url("../img/portfel.svg");
+}
+
+.icon-6 {
+  background-color: red;
+  background-image: url("../img/portfel.svg");
+}
+
+.social__box-info h3 {
+  margin: 5px 0 15px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #070f18;
+}
+
+.social__box-info p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #575455;
+}/*# sourceMappingURL=main.css.map */

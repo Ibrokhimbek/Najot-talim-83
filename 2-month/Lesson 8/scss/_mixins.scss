@@ -1,0 +1,4 @@
+@mixin social__bubble($bg-color, $path) {
+  background-color: $bg-color;
+  background-image: url($path);
+}

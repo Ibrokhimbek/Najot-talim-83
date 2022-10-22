@@ -1,0 +1,57 @@
+.socials__container {
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px 90px;
+}
+
+.social__box {
+  width: 300px;
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.social__box-icon {
+  display: block;
+  flex-shrink: 0;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-1 {
+  @include social__bubble(coral, "../img/portfel.svg");
+}
+.icon-2 {
+  @include social__bubble(blue, "../img/portfel.svg");
+}
+.icon-3 {
+  @include social__bubble(red, "../img/portfel.svg");
+}
+.icon-4 {
+  @include social__bubble(red, "../img/portfel.svg");
+}
+.icon-5 {
+  @include social__bubble(red, "../img/portfel.svg");
+}
+.icon-6 {
+  @include social__bubble(red, "../img/portfel.svg");
+}
+
+.social__box-info h3 {
+  margin: 5px 0 15px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #070f18;
+}
+
+.social__box-info p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #575455;
+}

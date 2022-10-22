@@ -1,0 +1,34 @@
+@import "mixins";
+@import "general";
+@import "blocks/header"; 
+@import "blocks/socials";
+
+
+// %reset-list {
+//   list-style: none;
+// }
+
+// .english {
+//   @extend %reset-list;
+// }
+
+// .german {
+//   @extend %reset-list;
+// }
+
+// .btn {
+//   border: none;
+//   background-color: transparent;
+//   border: 1px solid black;
+//   padding: 5px 10px;
+//   border-radius: 10px;
+// }
+
+// .btn-2 {
+//   @extend .btn;
+//   background-color: red;
+// }
+
+// .lalaku {
+//   @extend .btn;
+// }
