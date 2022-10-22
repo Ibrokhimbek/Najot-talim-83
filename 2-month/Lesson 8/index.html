@@ -4,15 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/fontawesome-all.min.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <title>Lesson 7</title>
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <a href="index.html">
+      <div class="container header__container">
+        <a class="logo" href="index.html">
           <img src="./img/logo.svg" alt="Payna logo" width="151" />
         </a>
+
+        <input type="checkbox" id="menu" />
         <nav class="header__nav">
           <ul class="header__nav-list">
             <li class="header__nav-list-item">
@@ -29,7 +32,11 @@
             </li>
           </ul>
         </nav>
-        <a href="#" class="btn">Sign in</a>
+        <a href="#" class="btn__sign-in">Sign in</a>
+        
+        <label for="menu" class="mobile__burger">
+          <i class="fa-solid fa-bars fa-2x"></i>
+        </label>
       </div>
     </header>
 
@@ -95,5 +102,8 @@
         </div>
       </div>
     </section> -->
+
+    <!-- Fontawesome js -->
+    <script src="./js/all.js"></script>
   </body>
 </html>
