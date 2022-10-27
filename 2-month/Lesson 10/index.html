@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 10</title>
+  </head>
+  <body>
+    <picture>
+      <!-- Webp -->
+      <source
+        type="image/webp"
+        media="(max-width: 425px)"
+        srcset="./imgs/coffee-mobile.webp 1x, ./imgs/coffee-mobile@2x.webp 2x"
+      />
+
+      <source
+        type="image/webp"
+        media="(max-width: 768px)"
+        srcset="./imgs/coffee-tablet.webp 1x, ./imgs/coffee-tablet@2x.webp 2x"
+      />
+
+      <source
+        type="image/webp"
+        srcset="./imgs/coffee-desktop.webp 1x, ./imgs/coffee-desktop@2x.webp 2x"
+      />
+
+      <source
+        media="(max-width: 425px)"
+        srcset="./imgs/coffee-mobile.jpg 1x, ./imgs/coffee-mobile@2x.jpg 2x"
+      />
+
+      <source
+        media="(max-width: 768px)"
+        srcset="./imgs/coffee-tablet.jpg 1x, ./imgs/coffee-tablet@2x.jpg 2x"
+      />
+
+      <img
+        src="./imgs/coffee-desktop.jpeg"
+        alt="coffee"
+        srcset="./imgs/coffee-desktop.jpeg 1x, ./imgs/coffee-desktop@2x.jpeg 2x"
+      />
+    </picture>
+
+    <!-- <img src="./imgs/coffee.webp" srcset="./imgs/coffee.webp 1x, ./imgs/coffee@2x.webp 2x" alt="Coffee"> -->
+  </body>
+</html>
