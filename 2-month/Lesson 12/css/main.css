@@ -18,3 +18,9 @@ body {
 .carousel {
   margin-top: 56px;
 }
+
+.box {
+  background-color: red;
+  border: 1px solid black;
+  color: #fff;
+}
