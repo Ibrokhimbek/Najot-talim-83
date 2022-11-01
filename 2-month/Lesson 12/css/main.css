@@ -1,26 +1,35 @@
-body {
-  height: 2500px;
-}
-
-.carousel-inner {
-  height: 600px;
-}
-
-.carousel-item {
-  height: 100%;
-}
-
-.obj-fit-cover {
-  object-fit: cover;
-  object-position: bottom;
-}
-
-.carousel {
-  margin-top: 56px;
-}
-
 .box {
+  width: 300px;
   background-color: red;
-  border: 1px solid black;
-  color: #fff;
 }
+@media (max-width: 576px) {
+  .box {
+    background-color: green;
+    width: 200px;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .box {
+    background-color: grey;
+    width: 250px;
+  }
+}
+
+.content {
+  text-align: left;
+}
+@media (max-width: 576px) {
+  .content {
+    text-align: center;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .content {
+    text-align: right;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1900px) {
+  .content {
+    text-align: justify;
+  }
+}/*# sourceMappingURL=main.css.map */

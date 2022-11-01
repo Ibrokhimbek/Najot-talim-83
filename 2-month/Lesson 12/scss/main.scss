@@ -1,0 +1,48 @@
+@mixin mobile() {
+  @media (max-width: 576px) {
+    @content;
+  }
+}
+
+@mixin tablet() {
+  @media (min-width: 577px) and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin media($min-width, $max-width) {
+  @media (min-width: $min-width) and (max-width: $max-width) {
+    @content;
+  }
+}
+
+.box {
+  width: 300px;
+  background-color: red;
+
+  @include mobile() {
+    background-color: green;
+    width: 200px;
+  }
+
+  @include tablet() {
+    background-color: grey;
+    width: 250px;
+  }
+}
+
+.content {
+  text-align: left;
+
+  @include mobile() {
+    text-align: center;
+  }
+
+  @include tablet() {
+    text-align: right;
+  }
+
+  @include media(1200px, 1900px) {
+    text-align: justify;
+  }
+}
