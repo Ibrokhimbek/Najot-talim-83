@@ -53,3 +53,21 @@ const username = "Userbek";
 
 // console.log(document.all[8]);
 // console.dir(document.all[8]);
+
+//? Getting html elements
+// const btn = document.getElementById("btnId")
+// const btn = document.getElementsByClassName("btn")
+// const btn = document.getElementsByName("gender");
+// const btn = document.getElementsByTagName("button")
+//* get... => HTMLCollection
+
+// const btn = document.querySelector("button")
+// const btn = document.querySelector(".btn")
+// const btn = document.querySelector("#btnId")
+
+// const btns = document.querySelectorAll(".btn")
+// const btns = document.querySelectorAll("#btn")
+// const btns = document.querySelectorAll("button")
+//* query... => NodeList
+
+// console.log(btn);
