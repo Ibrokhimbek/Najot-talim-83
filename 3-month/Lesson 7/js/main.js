@@ -71,3 +71,28 @@ const username = "Userbek";
 //* query... => NodeList
 
 // console.log(btn);
+
+//? button click
+const btn = document.querySelector("#btnId");
+
+let isRed = false;
+
+btn.onclick = function () {
+  if (!isRed) {
+    btn.classList.add("red");
+    isRed = true;
+  } else {
+    btn.classList.remove("red");
+    isRed = false
+  }
+};
+
+// btn.onmouseover = function() {
+//   btn.classList.add("red")
+// }
+
+// btn.onmouseout = function() {
+//   btn.classList.remove("red")
+// }
+
+console.dir(btn);
