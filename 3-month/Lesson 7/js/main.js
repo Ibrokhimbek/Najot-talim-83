@@ -1,12 +1,12 @@
-function findFive(num) {
-  const numsArr = [];
-  for (let i = 1; i <= num; i++) {
-    if (i % 5 === 0 && i % 3 !== 0) {
-      numsArr.push(i);
-    }
-  }
-  return numsArr;
-}
+// function findFive(num) {
+//   const numsArr = [];
+//   for (let i = 1; i <= num; i++) {
+//     if (i % 5 === 0 && i % 3 !== 0) {
+//       numsArr.push(i);
+//     }
+//   }
+//   return numsArr;
+// }
 // console.log(findFive(100));
 
 //? concat, join, slice, splice
@@ -41,4 +41,15 @@ const username = "Userbek";
 // console.log(str);
 // console.log(str.split(" "));
 //* charAt(n)
-console.log(username.charAt(6));
+// console.log(username.charAt(6));
+
+//? DOM => Document Object Model
+// alert("Hello")
+// console.log(window);
+
+// function reloader() {
+//   document.location.reload();
+// }
+
+// console.log(document.all[8]);
+// console.dir(document.all[8]);
