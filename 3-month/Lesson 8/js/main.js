@@ -60,3 +60,15 @@
 //     console.log("Salom hurmatli mijoz");
 //     break;
 // }
+
+// const obj = {
+//   name: "Ibrohim"
+// }
+// obj.name = "Abror"
+// console.log(obj.name)
+
+// const heading = document.querySelector("#heading");
+// heading.style.color = "blue";
+// heading.style.textAlign = 'center';
+// console.dir(heading);
+
