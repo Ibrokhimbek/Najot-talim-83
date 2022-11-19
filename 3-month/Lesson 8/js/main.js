@@ -72,3 +72,30 @@
 // heading.style.textAlign = 'center';
 // console.dir(heading);
 
+//? callback function
+// function addEventListener(event, callback) {
+//   if (event === "click") {
+//     btn.onclick = callback();
+//   }
+// }
+
+// addEventListener("click", (str) => {heading.style.color = "red"});
+
+//? addEventListener
+// const heading = document.querySelector("#heading");
+// const btn = document.querySelector("#btn");
+
+// btn.addEventListener("click", () => {
+//   console.log(1);
+// });
+// btn.addEventListener("click", () => {
+//   console.log(2);
+// });
+
+// btn.onclick = function () {
+//   console.log("1")
+// }
+
+// btn.onclick = function () {
+//   console.log("2")
+// }
