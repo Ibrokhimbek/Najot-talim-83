@@ -99,3 +99,13 @@
 // btn.onclick = function () {
 //   console.log("2")
 // }
+
+//? setTimeout vs setInterval
+
+// setTimeout(() => {
+//   console.log("Salom men tug'ildim!")
+// }, 3000);
+
+// setInterval(() => {
+//   console.log("Darsni qil idiot!")
+// }, 1000);
