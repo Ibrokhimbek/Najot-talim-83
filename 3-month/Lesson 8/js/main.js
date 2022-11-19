@@ -47,3 +47,16 @@
 // const isEqual = arr.length === nums.length ? true : arr[0] === nums[0] ? true : false;
 // console.log(isEqual);
 
+//? Switch case
+// const username = prompt("Name:");
+// switch (username) {
+//   case "Ibrohim":
+//     console.log("Salom " + username);
+//     break;
+//   case "Abror":
+//     console.log("Salom Abror");
+//     break;
+//   default:
+//     console.log("Salom hurmatli mijoz");
+//     break;
+// }
