@@ -42,3 +42,54 @@
 //? isNaN
 // const num = 9 * 10;
 // console.log(isNaN(num));
+
+//? textContent vs innerHTML
+// const h1El = document.querySelector("#heading")
+// h1El.textContent = `<span> Hello </span>`
+// h1El.innerHTML = `<span> Hello </span>`
+
+//* Amaliyot
+function $(selector) {
+  return document.querySelector(selector);
+}
+
+const allUsers = [];
+const userForm = $("#UserForm");
+
+userForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const userImage = $("#userImage");
+  const userName = $("#userName");
+  const userInfo = $("#userInfo");
+
+  const userObject = {
+    name: userName.value,
+    image: userImage.value,
+    info: userInfo.value,
+  };
+
+  allUsers.push(userObject);
+  console.log(allUsers);
+  render();
+});
+
+function render() {
+  const cardsBox = $("#cards");
+
+  cardsBox.innerHTML = ""
+  
+  for (let i = 0; i < allUsers.length; i++) {
+    const card = `
+      <div class="card" style="width: 18rem;">
+        <img src="${allUsers[i].image}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">${allUsers[i].name}</h5>
+          <p class="card-text">${allUsers[i].info}</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    `;
+
+    cardsBox.innerHTML = cardsBox.innerHTML + card;
+  }
+}
