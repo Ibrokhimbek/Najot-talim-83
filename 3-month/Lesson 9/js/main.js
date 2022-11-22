@@ -27,3 +27,18 @@
 // for (let i = list.length-1; i >= 0; i--) {
 //   console.log(list[i]);
 // }
+
+//? Object methods
+// const obj = {
+//   name: "Userbek",
+//   age: 99,
+//   country: "Processor",
+// };
+
+// console.log(Object.keys(obj));
+// console.log(Object.values(obj));
+// console.log(Object.entries(obj));
+
+//? isNaN
+// const num = 9 * 10;
+// console.log(isNaN(num));
