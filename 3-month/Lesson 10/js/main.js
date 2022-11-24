@@ -61,15 +61,13 @@ const arr = [
   "Jahongir",
   "Shaxzod",
   "Ozodbek",
-  "Jasur",
   "Muhammadqodir",
   "Azizbek",
-  "Murodjon",
-  "Sardor",
+  "Muhammaddiyor",
 ];
 
 document.querySelector("#btn").addEventListener("click", () => {
-  const randomUser = Math.round(Math.random() * arr.length-1);
+  const randomUser = Math.round(Math.random() * (arr.length - 1));
   console.log(arr[randomUser]);
   arr.splice(randomUser, 1);
   console.log(arr);
