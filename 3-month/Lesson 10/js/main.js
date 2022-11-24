@@ -69,8 +69,10 @@ const arr = [
 ];
 
 document.querySelector("#btn").addEventListener("click", () => {
-  const randomUser = Math.round(Math.random() * arr.length);
+  const randomUser = Math.round(Math.random() * arr.length-1);
   console.log(arr[randomUser]);
+  arr.splice(randomUser, 1);
+  console.log(arr);
 });
 
 // setInterval(() => {
