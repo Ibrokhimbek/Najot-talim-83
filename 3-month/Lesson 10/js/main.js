@@ -49,7 +49,33 @@
 // });
 
 //? Math object
-// const PI = Math.PI;
+// const PI = Math.PI; //* 3.14
 // console.log(Math.floor(3.9)) //* 3
 // console.log(Math.round(4.5)) //* 4.5 => 5 / 4.4 => 4
 // console.log(Math.ceil(3.1)) //* 4
+
+//* Amaliyot
+const arr = [
+  "Ravshan",
+  "Abdulla",
+  "Jahongir",
+  "Shaxzod",
+  "Ozodbek",
+  "Jasur",
+  "Muhammadqodir",
+  "Azizbek",
+  "Murodjon",
+  "Sardor",
+];
+
+document.querySelector("#btn").addEventListener("click", () => {
+  const randomUser = Math.round(Math.random() * arr.length);
+  console.log(arr[randomUser]);
+});
+
+// setInterval(() => {
+//   const randomUser = Math.round(Math.random() * arr.length);
+//   console.log(arr[randomUser]);
+// }, 2000);
+
+// console.log(arr[0]);
