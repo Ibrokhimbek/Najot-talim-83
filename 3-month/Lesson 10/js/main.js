@@ -37,3 +37,13 @@
 //   event.preventDefault();
 // })
 
+//? toggle, add, remove, contains
+// const buttonEl = document.querySelector("#btn");
+
+// buttonEl.addEventListener("click", () => {
+// buttonEl.classList.add("btn");
+// buttonEl.classList.remove("btn");
+// buttonEl.classList.toggle("btn");
+// const isExist = buttonEl.classList.contains("btn");
+// console.log(isExist);
+// });
