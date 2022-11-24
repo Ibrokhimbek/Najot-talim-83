@@ -47,3 +47,9 @@
 // const isExist = buttonEl.classList.contains("btn");
 // console.log(isExist);
 // });
+
+//? Math object
+// const PI = Math.PI;
+// console.log(Math.floor(3.9)) //* 3
+// console.log(Math.round(4.5)) //* 4.5 => 5 / 4.4 => 4
+// console.log(Math.ceil(3.1)) //* 4
