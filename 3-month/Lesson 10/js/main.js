@@ -55,23 +55,23 @@
 // console.log(Math.ceil(3.1)) //* 4
 
 //* Amaliyot
-const arr = [
-  "Ravshan",
-  "Abdulla",
-  "Jahongir",
-  "Shaxzod",
-  "Ozodbek",
-  "Muhammadqodir",
-  "Azizbek",
-  "Muhammaddiyor",
-];
+// const arr = [
+//   "Ravshan",
+//   "Abdulla",
+//   "Jahongir",
+//   "Shaxzod",
+//   "Ozodbek",
+//   "Muhammadqodir",
+//   "Azizbek",
+//   "Muhammaddiyor",
+// ];
 
-document.querySelector("#btn").addEventListener("click", () => {
-  const randomUser = Math.round(Math.random() * (arr.length - 1));
-  console.log(arr[randomUser]);
-  arr.splice(randomUser, 1);
-  console.log(arr);
-});
+// document.querySelector("#btn").addEventListener("click", () => {
+//   const randomUser = Math.round(Math.random() * (arr.length - 1));
+//   console.log(arr[randomUser]);
+//   arr.splice(randomUser, 1);
+//   console.log(arr);
+// });
 
 // setInterval(() => {
 //   const randomUser = Math.round(Math.random() * arr.length);
