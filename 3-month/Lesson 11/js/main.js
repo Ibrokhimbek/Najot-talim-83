@@ -38,38 +38,38 @@
 //   }
 // });
 
-const myCar = {
-  company: null,
-  caption: null,
-  color: null,
-  accessories: [],
-};
-//* console.dir(accessories.children[0].children[0].checked);
+// const myCar = {
+//   company: null,
+//   caption: null,
+//   color: null,
+//   accessories: [],
+// };
+// //* console.dir(accessories.children[0].children[0].checked);
 
-const formEl = document.querySelector("#form");
+// const formEl = document.querySelector("#form");
 
-formEl.addEventListener("submit", (e) => {
-  e.preventDefault();
-  const selectedCompany = document.querySelector("#companyName");
-  const carType = document.getElementsByName("carType");
-  const color = document.querySelector("#color");
-  const accessories = document.querySelectorAll(".accessory__item");
+// formEl.addEventListener("submit", (e) => {
+//   e.preventDefault();
+//   const selectedCompany = document.querySelector("#companyName");
+//   const carType = document.getElementsByName("carType");
+//   const color = document.querySelector("#color");
+//   const accessories = document.querySelectorAll(".accessory__item");
 
-  myCar.company = selectedCompany.value;
+//   myCar.company = selectedCompany.value;
 
-  for (item of carType) {
-    if (item.checked) {
-      myCar.caption = item.value;
-    }
-  }
+//   for (item of carType) {
+//     if (item.checked) {
+//       myCar.caption = item.value;
+//     }
+//   }
 
-  myCar.color = color.value;
+//   myCar.color = color.value;
 
-  for (item of accessories) {
-    if (item.checked) {
-      myCar.accessories.push(item.value);
-    }
-  }
+//   for (item of accessories) {
+//     if (item.checked) {
+//       myCar.accessories.push(item.value);
+//     }
+//   }
 
-  console.log(myCar);
-});
+//   console.log(myCar);
+// });
