@@ -39,6 +39,7 @@
 // });
 
 const myCar = {
+  company: null,
   caption: null,
   color: null,
   accessories: [],
@@ -49,9 +50,12 @@ const formEl = document.querySelector("#form");
 
 formEl.addEventListener("submit", (e) => {
   e.preventDefault();
+  const selectedCompany = document.querySelector("#companyName");
   const carType = document.getElementsByName("carType");
   const color = document.querySelector("#color");
   const accessories = document.querySelectorAll(".accessory__item");
+
+  myCar.company = selectedCompany.value;
 
   for (item of carType) {
     if (item.checked) {
