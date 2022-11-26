@@ -73,3 +73,29 @@
 
 //   console.log(myCar);
 // });
+
+//* Date
+
+const months = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+
+//* const date = new Date();
+//* console.log(date.getDate());
+//* console.log(date.getDay());
+//* console.log(date.getHours());
+//* console.log(date.getMinutes());
+//* console.log(date.getSeconds());
+//* console.log(months[date.getMonth()]);
+//* console.log(date.getTime());
