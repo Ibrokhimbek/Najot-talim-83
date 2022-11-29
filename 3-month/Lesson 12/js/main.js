@@ -22,4 +22,16 @@
 //   document.body.style.background = saidColor;
 // };
 
-//? 
+//? Create element
+// const element = document.createElement("h1");
+// const element1 = document.createElement("h1");
+// element.textContent = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis saepe quisquam commodi perferendis laudantium labore, ducimus voluptates. Non asperiores, inventore debitis excepturi nulla ipsum! Maxime architecto voluptatum, commodi facere doloribus accusantium laudantium saepe quisquam praesentium ipsum soluta rerum pariatur animi."
+// element1.textContent = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis saepe quisquam commodi perferendis laudantium labore, ducimus voluptates. Non asperiores, inventore debitis excepturi nulla ipsum! Maxime architecto voluptatum, commodi facere doloribus accusantium laudantium saepe quisquam praesentium ipsum soluta rerum pariatur animi."
+// element.classList.add("red")
+
+// const div = document.createElement("div")
+
+// div.append(element, element1)
+
+// console.log(div.childNodes);
+// document.body.appendChild(div);
