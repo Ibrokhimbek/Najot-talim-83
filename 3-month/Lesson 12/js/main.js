@@ -40,3 +40,6 @@
 // const text = "Hello"
 // console.log(text.padStart(10, "+"));
 // console.log(text.padEnd(10, "-"))
+
+//? ASCII
+// console.log("A" < "a");
