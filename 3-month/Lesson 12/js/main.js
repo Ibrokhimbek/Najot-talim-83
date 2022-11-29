@@ -35,3 +35,8 @@
 
 // console.log(div.childNodes);
 // document.body.appendChild(div);
+
+//? padStart vs padEnd
+// const text = "Hello"
+// console.log(text.padStart(10, "+"));
+// console.log(text.padEnd(10, "-"))
