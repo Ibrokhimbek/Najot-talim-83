@@ -40,3 +40,10 @@
 // document.querySelector("#btn").addEventListener("click", function () {
 //   this.style.background = "red";
 // });
+
+//? Array methods
+const arr = [1, 2, 3, 4, 5, 6, 7, 8];
+const stringArr = ["Ravshan", "Abror", "Eshmat", "Toshmat", "Do'smat"];
+
+// console.log(arr.includes(2, 0));
+// console.log(stringArr.includes("Abror", 0));
