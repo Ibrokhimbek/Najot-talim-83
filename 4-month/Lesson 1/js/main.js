@@ -47,3 +47,12 @@ const stringArr = ["Ravshan", "Abror", "Eshmat", "Toshmat", "Do'smat"];
 
 // console.log(arr.includes(2, 0));
 // console.log(stringArr.includes("Abror", 0));
+
+// let x = 0;
+
+// stringArr.forEach((v, i) => {
+//   console.log(v);
+//   // x += value;
+// });
+
+// console.log(x);
