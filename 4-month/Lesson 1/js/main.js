@@ -36,3 +36,7 @@
 // obj.showThis3();
 // obj.arr[0]();
 // obj.arr[1]();
+
+// document.querySelector("#btn").addEventListener("click", function () {
+//   this.style.background = "red";
+// });
