@@ -42,8 +42,8 @@
 // });
 
 //? Array methods
-const arr = [1, 2, 3, 4, 5, 6, 7, 8];
-const stringArr = ["Ravshan", "Abror", "Eshmat", "Toshmat", "Do'smat"];
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8];
+// const stringArr = ["Ravshan", "Abror", "Eshmat", "Toshmat", "Do'smat"];
 //* includes
 // console.log(arr.includes(2, 0));
 // console.log(stringArr.includes("Abror", 0));
