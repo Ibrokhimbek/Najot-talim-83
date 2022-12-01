@@ -44,15 +44,28 @@
 //? Array methods
 const arr = [1, 2, 3, 4, 5, 6, 7, 8];
 const stringArr = ["Ravshan", "Abror", "Eshmat", "Toshmat", "Do'smat"];
-
+//* includes
 // console.log(arr.includes(2, 0));
 // console.log(stringArr.includes("Abror", 0));
 
 // let x = 0;
-
+//* forEach
 // stringArr.forEach((v, i) => {
 //   console.log(v);
 //   // x += value;
 // });
 
 // console.log(x);
+
+//* some vs every
+// let x = 0;
+// console.log(
+//   arr.every((val) => {
+//     x += val;
+//     return val !== 2;
+//   })
+// );
+// console.log(x);
+
+// const result = arr.some((val) => val === 2);
+// console.log(result);
