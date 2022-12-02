@@ -69,3 +69,6 @@
 
 // const result = arr.some((val) => val === 2);
 // console.log(result);
+
+//* func([2,3,4,5,6], 5) => false
+//* func([5,5,5,5,5], 5) => true
