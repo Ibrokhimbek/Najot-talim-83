@@ -76,3 +76,9 @@
 //     return prev + curr;
 //   })
 // );
+
+// console.log($("#btn"));
+
+// console.log(isEmptyArray(["Hello"]));
+
+// render("#btn", "Clicker");
