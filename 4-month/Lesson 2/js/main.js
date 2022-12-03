@@ -82,3 +82,12 @@
 // console.log(isEmptyArray(["Hello"]));
 
 // render("#btn", "Clicker");
+
+// $("#input").addEventListener("change", (e) => {
+//   $("#text").textContent += e.target.value;
+//   console.log(e.target.value);
+// });
+
+// $("#input").onchange = function (e) {
+//   $("#text").textContent += e.target.value;
+// };
