@@ -20,3 +20,14 @@
 //   var item = "Item";
 // }
 // console.log(item);
+
+//* Amaliyot
+// const btnEl = document.querySelector("#btn");
+// const inputEl = document.querySelector("#input");
+
+// const arr = [];
+
+// btnEl.addEventListener("click", () => {
+//   arr.push(inputEl.value);
+//   console.log(arr);
+// });
