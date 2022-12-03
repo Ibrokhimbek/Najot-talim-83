@@ -91,3 +91,9 @@
 // $("#input").onchange = function (e) {
 //   $("#text").textContent += e.target.value;
 // };
+
+//* [[1,2], [3,4], [5,6,7], [8,9]] => [1,2,3,4,5,6,7,8,9]
+//* {name: "Ibrohim", age: 20, location: 'Uzbekistan'} => [{"name", "Ibrohim"}, {age: 20}, {location: "Uzbekistan"}]
+//* [[1,2], [3,4], [5,6,7], [8,9]] => [9,8,7,6,5,4,3,2,1]
+//* [1,2,3,4,4,5,6,7,7] => [4,7]
+//* 4 => 1*2*3*4 = 24
