@@ -44,3 +44,11 @@
 //   }
 //   console.log(arr);
 // });
+
+//* Hoisting
+// console.log(x);
+
+// console.log(x);
+
+// x=5;
+// let x;
