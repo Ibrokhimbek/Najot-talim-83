@@ -13,3 +13,10 @@
 // }
 
 // console.log(item);
+
+//? var in scopes
+
+// if (true) {
+//   var item = "Item";
+// }
+// console.log(item);
