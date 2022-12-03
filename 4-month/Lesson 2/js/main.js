@@ -31,3 +31,16 @@
 //   arr.push(inputEl.value);
 //   console.log(arr);
 // });
+
+//* Amaliyot
+// const inputs = document.querySelectorAll(".input");
+
+// const arr = [];
+
+// document.querySelector("#btn").addEventListener("click", () => {
+//   console.log("Clicked");
+//   for(let i = 0; i < inputs.length; i++) {
+//     arr.push(inputs[i].value);
+//   }
+//   console.log(arr);
+// });
