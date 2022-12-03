@@ -52,3 +52,27 @@
 
 // x=5;
 // let x;
+
+//* Array reduce()
+// const arr = [1, 2, 3, 4, 5, 6];
+
+// console.log(
+//   arr.reduce((prev, curr) => {
+//     console.log(prev);
+//     return prev - curr;
+//   }, 0)
+// );
+
+// function reducer(cb, initialVal = 0) {
+//   let val = initialVal;
+//   for (let i = 0; i < arr.length; i++) {
+//     val = cb(val, arr[i]);
+//   }
+//   return val;
+// }
+
+// console.log(
+//   reducer((prev, curr) => {
+//     return prev + curr;
+//   })
+// );
